@@ -66,9 +66,10 @@ def skin_detect(input_path,output_path,w=200,h=150,threshold=0.9999999999999):
 
     im = cv2.cvtColor(im, cv2.COLOR_RGB2BGR)
     cv2.imwrite(output_path,im)
-
-skin_detect("lena.png","lena-th1.png",threshold=0.99999999999,w=200,h=200)
-skin_detect("lena.png","lena-th2.png",threshold=0.999999999999,w=200,h=200)
-skin_detect("lena.png","lena-th3.png",threshold=0.9999999999999,w=200,h=200)
-skin_detect("lena.png","lena-th4.png",threshold=0.99999999999999,w=200,h=200)
-skin_detect("lena.png","lena-th5.png",threshold=0.999999999999999,w=200,h=200)
+    
+skin_detect("people.jfif","people-th5.png",threshold=1,w=300,h=300)
+skin_detect("people.jfif","people-th0.png",threshold=0,w=300,h=300)
+skin_detect("people.jfif","people-th1.png",threshold=0.999999,w=300,h=300)
+skin_detect("people.jfif","people-th2.png",threshold=0.999999999999,w=300,h=300)
+skin_detect("people.jfif","people-th3.png",threshold=0.9999999999999,w=300,h=300)
+skin_detect("people.jfif","people-th4.png",threshold=0.99999999999999,w=300,h=300)
