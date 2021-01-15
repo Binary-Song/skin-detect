@@ -17,3 +17,17 @@ skin_dataset.txt是训练集，前三个数表示RGB分量，第四个数表示�
 ```
 pip install numpy scipy opencv-python
 ```
+
+## 效果
+
+![image](https://github.com/Binary-Song/skin-detect/blob/master/people-th0.png)
+
+![image](https://github.com/Binary-Song/skin-detect/blob/master/people-th1.png)
+
+![image](https://github.com/Binary-Song/skin-detect/blob/master/people-th2.png)
+
+![image](https://github.com/Binary-Song/skin-detect/blob/master/people-th3.png)
+
+![image](https://github.com/Binary-Song/skin-detect/blob/master/people-th4.png)
+
+![image](https://github.com/Binary-Song/skin-detect/blob/master/people-th5.png)
